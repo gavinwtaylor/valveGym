@@ -36,3 +36,7 @@ class ValveEnv(gym.Env):
     pass
   def seed(self):
     pass
+
+  def __del__(self):
+    pass
+    #use this to end other process, maybe?
